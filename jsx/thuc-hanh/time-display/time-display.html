@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+</body>
+<script>
+    function timeDisplay(){
+        time =  new Date().toTimeString();
+        document.getElementById("demo").innerHTML =time
+        console.log(time);
+    }
+    setInterval(timeDisplay,1000)
+    // setInterval(()=>{
+    //     time =  new Date().toTimeString()
+    //     document.getElementById("demo").innerHTML =time
+    //     console.log(time)
+    // },1000)
+</script>
+</html>
