@@ -8,7 +8,7 @@ export default class Home extends React.Component {
         }
     }
     componentWillUnmount(name){
-        alert("Goodbye!, see you later! {this.props.names}");
+        alert(`Goodbye!, see you later!" ${name}`);
     }
     render(){
         return (
