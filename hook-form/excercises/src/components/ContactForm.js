@@ -27,10 +27,11 @@ export const ContactForm = () => {
       alert("Log in success")
       e.preventDefault();
       console.log("hihi");
+      
   };
   return (
     <div>
-      <Formik initialValues={form} validationSchema={validateSchema}  onSubmit={handleSubmit}>
+      <Formik initialValues={form} validationSchema={validateSchema}  onSubmit={handleSubmit} enableReinitialize={true}>
         <Form >
           <label htmlFor="name">Your name</label>
           <Field name="name" placeholder="Enter your name" value={form.name} onChange ={handleChange}/>
@@ -41,7 +42,7 @@ export const ContactForm = () => {
             name="name"
           ></ErrorMessage>
           <label htmlFor="email">Email</label>
-          <Field name="email" placeholder="Enter your email" />
+          <Field name="email" placeholder="Enter your email" value={form.email} onChange ={handleChange}/>
           <br />
           <ErrorMessage
             component="div"
@@ -49,7 +50,7 @@ export const ContactForm = () => {
             name="email"
           ></ErrorMessage>
           <label htmlFor="tel">Tel</label>
-          <Field name="tel" placeholder="Enter your tel" />
+          <Field name="tel" placeholder="Enter your tel" value={form.tel} onChange ={handleChange}/>
           <br />
           <ErrorMessage
             component="div"
@@ -57,7 +58,7 @@ export const ContactForm = () => {
             name="tel"
           ></ErrorMessage>
           <label htmlFor="message">Message</label>
-          <Field name="message" placeholder="Enter your message" />
+          <Field name="message" placeholder="Enter your message" value={form.message} onChange ={handleChange}/>
           <br />
           <ErrorMessage
             component="div"

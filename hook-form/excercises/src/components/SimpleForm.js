@@ -46,6 +46,7 @@ const SimpleForm = () => {
           initialValues={account}
           validationSchema={validateSchema}
           onSubmit={handleSubmit}
+          enableReinitialize={true}
         >
           {({ errors, touched }) => (
             <Form onSubmit={handleSubmit}>
@@ -55,13 +56,13 @@ const SimpleForm = () => {
               <Field
                 name="userName"
                 placeholder="Enter your user name"
-                // value={account.userName}
-                // onChange={handleChange}
+                value={account.userName}
+                onChange={handleChange}
               />
               <ErrorMessage
                 component="div"
                 className="text-danger"
-                name="name"
+                name="userName"
               ></ErrorMessage>
               <br />
               <label htmlFor="email"> Email</label>
@@ -70,8 +71,8 @@ const SimpleForm = () => {
                 type="email"
                 name="email"
                 placeholder="Enter your user email"
-                // value={account.email}
-                // onChange={handleChange}
+                value={account.email}
+                onChange={handleChange}
               ></Field>
               <ErrorMessage
                 component="div"
@@ -85,8 +86,8 @@ const SimpleForm = () => {
                 name="password"
                 type="password"
                 placeholder="Password"
-                // value={account.password}
-                // onChange={handleChange}
+                value={account.password}
+                onChange={handleChange}
               ></Field>
               <ErrorMessage
                 component="div"
@@ -100,8 +101,8 @@ const SimpleForm = () => {
                 name="confirmPassword"
                 type="password"
                 placeholder="Confirm password"
-                // value={account.confirmPassword}
-                // onChange={handleChange}
+                value={account.confirmPassword}
+                onChange={handleChange}
               ></Field>
               <ErrorMessage
                 component="div"
