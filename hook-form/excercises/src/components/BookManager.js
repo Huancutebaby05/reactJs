@@ -50,6 +50,7 @@ export const BookManager = () => {
     }
   };
   localStorage.setItem("string", JSON.stringify([...bookShelf]))
+  
   const handleOnchange = (e) => {
     setBook({ ...book, [e.target.name]: e.target.value });
   };

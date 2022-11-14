@@ -1,7 +1,7 @@
 import { Form} from "react-router-dom";
 import { confirmable } from "react-confirm";
 
-export default function Contact() {
+export default function Contact1() {
   const contact = {
     first: "Van",
     last: "Truong",

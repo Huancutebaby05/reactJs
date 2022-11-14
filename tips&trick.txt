@@ -20,4 +20,39 @@ Ctrl + Shift + M này giúp bạn hiển thị / ẩn bảng Problems trong Visu
 &nbsp; dấu space 1 cách;
 &ensp; dấu space 2 cách;
 
+npx create-next-app demo
+npx create-react-app demo
+npm i yup
+npm i bootstrap
+npm i 
+
+import "bootstrap/dist/css/bootstrap.css";
+    import PropTypes from "prop-types";
+
+trong node.js khi tao moi  cần sửa file .eslintrc.json thành 
+{
+  "extends": ["next/babel","next/core-web-vitals"]
+}
+
+json-server --watch db.json
+
+npm install react-confirm-alert --save
+import 'react-confirm-alert/src/react-confirm-alert.css'
+ const handleDelete = (delIndex) => {
+        confirmAlert({
+            title: 'Delete employee',
+            message: `Are you sure you want to delete ${employeesList[delIndex].name} ?`,
+            buttons: [
+                {
+                    label: 'Cancel',
+                },
+                {
+                    label: 'Delete',
+                    onClick: () => {
+                        setEmployeesList(employeesList.filter((value, index) => index !== delIndex))
+                    }
+                }
+            ]
+        })
+    }
 

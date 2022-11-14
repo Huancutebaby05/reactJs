@@ -4,7 +4,6 @@ import { Formik, Form, ErrorMessage, Field } from "formik"
 import * as Yup from "yup"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { confirmAlert } from 'react-confirm-alert'
-import { Alert } from 'bootstrap'
 const Employees = () => {
 
     const EmployeesList = [
@@ -151,8 +150,8 @@ navigate("/EmployeeDetail", {state: employeesList[index]})
                         ))}
                     </tbody>
                 </table>
-                <button className='mt-3 btn btn-primary' onClick={() => navigate(-1)}>Back</button>
             </div>
+                <button className='mt-3 btn btn-primary' onClick={() => navigate(-1)}>Back</button>
         </div >
 
     )
