@@ -16,6 +16,7 @@ export const User = () => {
         navigate("/user/edit", {state:{id:editId}})
     }
     const handleDelete = (delIndex,value) => {
+        console.log(delIndex);
         confirmAlert({
             title: <p>Are you sure you want to delete <span className=' text-danger text-capitalize'>{value}</span> ?</p>,
             buttons: [
@@ -26,7 +27,6 @@ export const User = () => {
                         axios.delete(`http://localhost:3001/exercise1/` + delIndex).then(res => {
                             let newList = personList.filter(value => value.id !== delIndex)
                             setPersonList([...newList])
-                            console.log(newList);
                         }).catch(err =>console.log(err))
 
                     }

@@ -27,8 +27,7 @@ export const BookManager = () => {
   // localStorage.getItem("string", JSON.stringify([...bookShelf]))
   const handleSubmit = (value) => {
     if (mode.status === "add") {
-      console.log("22");
-      bookShelf.unshift(value);
+      bookShelf.unshift(  value);
       setBookShelf([...bookShelf]);
       setBook({
         title: "",
@@ -49,7 +48,6 @@ export const BookManager = () => {
       });
     }
   };
-  localStorage.setItem("string", JSON.stringify([...bookShelf]))
   
   const handleOnchange = (e) => {
     setBook({ ...book, [e.target.name]: e.target.value });

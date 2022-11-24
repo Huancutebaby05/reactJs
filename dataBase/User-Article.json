@@ -1,27 +1,27 @@
 {
-    "User": [
-      {
-          "id": 1,
-          "name": "Tommy"
-      },
-      {
-          "id": 2,
-          "name": "Jennie"
-      },
-      {
-          "id": 3,
-          "name": "Harry"
-      },
-      {
-          "id": 4,
-          "name": "Beck"
-      },
-      {
-          "id": 5,
-          "name": "Ben"
-      }
+  "User": [
+    {
+      "id": 1,
+      "name": "Tommy"
+    },
+    {
+      "id": 2,
+      "name": "Jennie"
+    },
+    {
+      "id": 3,
+      "name": "Harry"
+    },
+    {
+      "id": 4,
+      "name": "Beck"
+    },
+    {
+      "id": 5,
+      "name": "Ben"
+    }
   ],
-   "Article": [
+  "Article": [
     {
       "id": 1,
       "title": "Lorem ipsum dolor sit amet",
@@ -47,5 +47,68 @@
       "title": "Lorem ipsum dolor sit amet",
       "user_id": 4
     }
+  ],
+  "todo": [
+    {
+      "id": 1,
+      "title": "Lorem ipsum dolor sit amet",
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "title": "Lorem ipsum dolor sit amet",
+      "user_id": 1
+    },
+    {
+      "id": 3,
+      "title": "Lorem ipsum dolor sit amet",
+      "user_id": 2
+    },
+    {
+      "id": 4,
+      "title": "Lorem ipsum dolor sit amet",
+      "user_id": 3
+    },
+    {
+      "id": 5,
+      "title": "Lorem ipsum dolor sit amet",
+      "user_id": 4
+    },
+    {
+      "UserId": "",
+      "title": "truong",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "UserId": "",
+      "title": "huan",
+      "completed": false,
+      "id": 7
+    },
+    {
+      "UserId": "",
+      "title": "dien ak",
+      "completed": false,
+      "id": 8
+    },
+    {
+      "UserId": "",
+      "title": "dien ak",
+      "completed": false,
+      "id": 9
+    },
+    {
+      "UserId": "",
+      "title": "anh yeu em",
+      "completed": false,
+      "id": 10
+    },
+    {
+      "UserId": "",
+      "title": "anh nho em",
+      "completed": false,
+      "id": 11
+    }
   ]
-  }
+}

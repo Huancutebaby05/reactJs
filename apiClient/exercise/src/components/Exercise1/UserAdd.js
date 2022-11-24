@@ -12,6 +12,7 @@ function UserAdd() {
     })
     const navigate = useNavigate()
     const handleClick = (value) => {
+        console.log(value);
         axios.post("http://localhost:3001/exercise1/", value )
             .then((res) => {
                 console.log(res.data);
