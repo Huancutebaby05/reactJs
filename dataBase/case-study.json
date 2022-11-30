@@ -1,77 +1,149 @@
 {
     "products": {
         "newArrival": [
+            
             {
                 "id": 1,
-                "link": "",
+                "link": "../../public/img/new-product/new-11.jpg",
                 "title": "[Zoku Kono Subarashii Sekai Ni Bakuen Wo!]",
                 "description": "Iris: Light Novel Band of Thieves",
                 "price": "$194.49"
             },
             {
                 "id": 2,
-                "link": "",
+                "link": "../../public/img/new-product/new-2.jpg",
                 "title": "[New Prince of Tennis] ",
                 "description": "Big Anizukin Plush / Kunimitsu Tezuka - Character Goods",
                 "price": "$66.99"
             },
             {
                 "id": 3,
-                "link": "",
+                "link": "../../public/img/new-product/new-3.jpg",
                 "title": "[Tokyo Revengers]",
                 "description": "Big Anizukin Plush / Chifuyu Matsuno - Character Goods",
                 "price": "$104.99"
             },
             {
                 "id": 4,
-                "link": "",
-                "title": "",
-                "description": "",
-                "price": ""
+                "link": "../../public/img/new-product/new-4.jpg",
+                "title": " Slayer: Kimetsu no Yaiba]",
+                "description": "Figma Tanjiro Kamado DX Edition – figma.",
+                "price": "$187.99"
             },
             {
-                "id": 2,
-                "link": "",
-                "title": "",
-                "description": "",
-                "price": ""
+                "id": 5,
+                "link": "../../public/img/new-product/new-5.jpg",
+                "title": "[Jujutsu Kaisen] ",
+                "description": "Steel Watch / Suguru Geto - Character Goods",
+                "price": "$59.99"
             },
             {
-                "id": 2,
-                "link": "",
-                "title": "",
-                "description": "",
-                "price": ""
+                "id": 6,
+                "link": "../../public/img/new-product/new-6.jpg",
+                "title": "[Kono Subarashii Sekai Ni Sakuen wo!]",
+                "description": "CAworks Megumin: Anime Opening Edition  (Additional parts)",
+                "price": "$257.99"
             },
             {
-                "id": 2,
-                "link": "",
-                "title": "",
-                "description": "",
-                "price": ""
+                "id": 7,
+                "link": "../../public/img/new-product/new-7.jpg",
+                "title": "[Hatsune Miku x Pusheen Collaboration]",
+                "description": "Flat Pouch type A - Character Goods",
+                "price": "$194.49"
             },
             {
-                "id": 2,
-                "link": "",
-                "title": "",
-                "description": "",
-                "price": ""
+                "id": 8,
+                "link": "../../public/img/new-product/new-8.jpg",
+                "title": "[Zoku Kono Subarashii Sekai Ni Bakuen Wo!]",
+                "description": "Flat Pouch type A - Character Goods",
+                "price": "$19.99"
             },
             {
-                "id": 2,
-                "link": "",
-                "title": "",
-                "description": "",
-                "price": ""
+                "id": 9,
+                "link": "../../public/img/new-product/new-9.jpg",
+                "title": "[Hatsune Miku x Pusheen Collaboration]",
+                "description": "Acrylic Stand - Character Goods",
+                "price": "$16.99"
             },
             {
-                "id": 2,
-                "link": "",
-                "title": "",
-                "description": "",
-                "price": ""
+                "id": 10,
+                "link": "../../public/img/new-product/new-10.jpg",
+                "title": "[Hatsune Miku x Pusheen Collaboration]",
+                "description": "Can Badge Set (3) - Character Goods",
+                "price": "$19.99"
             }
         ],
-        "exclusiveItems": {}
+        "exclusiveItems": [
+            {
+                "id": 6,
+                "link": "../../public/img/new-product/new-6.jpg",
+                "title": "[Kono Subarashii Sekai Ni Sakuen wo!]",
+                "description": "CAworks Megumin: Anime Opening Edition  (Additional parts)",
+                "price": "$257.99"
+            },
+            {
+                "id": 8,
+                "link": "../../public/img/new-product/new-8.jpg",
+                "title": "[Zoku Kono Subarashii Sekai Ni Bakuen Wo!]",
+                "description": "Flat Pouch type A - Character Goods",
+                "price": "$19.99"
+            },
+            {
+                "id": 1,
+                "link": "../../public/img/new-product/1.jpg,",
+                "title": "[Zoku Kono Subarashii Sekai Ni Bakuen Wo!]",
+                "description": "Iris: Light Novel Band of Thieves",
+                "price": "$194.49"
+            },
+            {
+                "id": 4,
+                "link": "../../public/img/new-product/new-4.jpg",
+                "title": " Slayer: Kimetsu no Yaiba]",
+                "description": "Figma Tanjiro Kamado DX Edition – figma.",
+                "price": "$187.99"
+            },
+            {
+                "id": 2,
+                "link": "../../public/img/new-product/new-2.jpg",
+                "title": "[New Prince of Tennis] ",
+                "description": "Big Anizukin Plush / Kunimitsu Tezuka - Character Goods",
+                "price": "$66.99"
+            },
+            {
+                "id": 3,
+                "link": "../../public/img/new-product/new-3.jpg",
+                "title": "[Tokyo Revengers]",
+                "description": "Big Anizukin Plush / Chifuyu Matsuno - Character Goods",
+                "price": "$104.99"
+            },
+            {
+                "id": 5,
+                "link": "../../public/img/new-product/new-5.jpg",
+                "title": "[Jujutsu Kaisen] ",
+                "description": "Steel Watch / Suguru Geto - Character Goods",
+                "price": "$59.99"
+            },
+            {
+                "id": 7,
+                "link": "../../public/img/new-product/new-7.jpg",
+                "title": "[Hatsune Miku x Pusheen Collaboration]",
+                "description": "Flat Pouch type A - Character Goods",
+                "price": "$194.49"
+            },
+            {
+                "id": 10,
+                "link": "../../public/img/new-product/new-10.jpg",
+                "title": "[Hatsune Miku x Pusheen Collaboration]",
+                "description": "Can Badge Set (3) - Character Goods",
+                "price": "$19.99"
+            },
+            {
+                "id": 9,
+                "link": "../../public/img/new-product/new-9.jpg",
+                "title": "[Hatsune Miku x Pusheen Collaboration]",
+                "description": "Acrylic Stand - Character Goods",
+                "price": "$16.99"
+            }
+        ]
     }
 }
